@@ -1,13 +1,9 @@
-body												{ background-color; #fff; margin-top: 100px; text-align: center; }
-#avatar												{ border-radius: 200px; max-width: 200px; width: 100%; }
-h1													{ font-family: "Verdana"; font-size: 2rem; }
+body	 { background-color; #fff; margin-top: 100px; text-align: center; }
+#avatar { border-radius: 200px; max-width: 200px; width: 100%; }
+h1 { font-family: "Verdana"; font-size: 2rem; margin-bottom: 20px; }
+#social-icon { width: 75%; }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000;
-  }
-
-  h1 {
-    color: #fff;
-  }
+  body { background-color: #000; }
+  h1 { color: #fff; }
 }
